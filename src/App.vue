@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Skills />
+    <MySkills />
   </div>
 </template>
 
 <script>
-import Skills from './components/MySkills.vue'
+import MySkills from './components/MySkills.vue'
 
 export default {
   name: 'app',
   components: {
-    Skills
+    MySkills
   }
 }
 </script>
